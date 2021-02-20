@@ -1,0 +1,181 @@
+@import "../../../styles/variables";
+
+.posts-and__author {
+  display: flex;
+  justify-content: space-between;
+
+  .posts {
+    max-width: 75%;
+
+    .post {
+      opacity: 0.8;
+      text-align: center;
+      margin: 1.5rem;
+      border: 2px solid $primary-color;
+
+      &-title {
+        color: $text-color;
+        text-decoration: none;
+        font-size: 1.3rem;
+
+        h2 {
+          padding: 0.5rem 0;
+          cursor: pointer;
+        }
+      }
+
+      &-date {
+        padding: 0.5rem 0;
+        font-size: 10px;
+        overflow: hidden;
+      }
+
+      img {
+        height: auto;
+        width: 80%;
+        cursor: pointer;
+        transition: all 0.3s;
+
+        &:hover {
+          opacity: 0.8;
+        }
+      }
+
+      &-detail {
+        text-align: center;
+
+        p {
+          padding: 1rem;
+        }
+      }
+
+      .read-more__btn {
+        border: none;
+        outline: none;
+        background-color: transparent;
+        border-bottom: 2px solid $primary-color;
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+        cursor: pointer;
+        text-decoration: none;
+        display: inline-block;
+        color: #000000;
+
+        &:hover {
+          transition: all 0.3s;
+          color: $primary-color;
+        }
+      }
+    }
+
+    .author-about__info {
+      margin: 1.5rem 1.5rem;
+      display: flex;
+      border: 2px solid $primary-color;
+      padding: 2rem;
+
+      img {
+        border-radius: 50%;
+      }
+      .author-tech {
+        padding: 0 2rem;
+        overflow: hidden;
+
+        h4 {
+          padding-bottom: 1rem;
+        }
+
+        p {
+          text-align: justify;
+          width: 100%;
+        }
+      }
+    }
+
+    .tags ul {
+      display: flex;
+      justify-content: center;
+
+      li {
+        padding: 2rem;
+        list-style-type: none;
+
+        a {
+          text-decoration: none;
+          color: $text-color;
+          background-color: #f2f2f2;
+          padding: 0.5rem;
+          transition: all 0.3s;
+
+          &:hover {
+            background-color: $primary-color;
+            color: $secondary-color;
+          }
+        }
+      }
+    }
+  }
+  .author {
+    max-width: 25%;
+    .about-me {
+      padding: 1.6rem 0;
+      font-size: 1.3rem;
+    }
+
+    &-info {
+      text-align: center;
+      padding-bottom: 0.8rem;
+
+      img {
+        border-radius: 50%;
+      }
+
+      h3 {
+        padding: 1rem 0;
+        font-size: 1rem;
+        text-align: center;
+      }
+
+      .info {
+        text-align: center;
+      }
+    }
+
+    .recent-posts {
+      a {
+        text-decoration: none;
+        color: #000000;
+      }
+      .recents {
+        .recent {
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          margin: 3rem 0;
+
+          .post-dates {
+            padding-left: 0.5rem;
+          }
+
+          div {
+            img {
+              max-width: 100px;
+              height: 100px;
+              cursor: pointer;
+
+              &:hover {
+                opacity: 0.8;
+              }
+            }
+          }
+
+          div {
+            p {
+              padding-bottom: 1rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}

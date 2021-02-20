@@ -1,0 +1,87 @@
+@import "../../../styles/variables";
+
+nav {
+  border-bottom: 3px solid $primary-color;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 5;
+
+  .navbar {
+    display: flex;
+
+    align-items: center;
+    line-height: 4;
+
+    div {
+      display: flex;
+      align-items: center;
+    }
+
+    &-nav {
+      ul {
+        display: flex;
+        list-style-type: none;
+
+        li {
+          padding-left: 1.7rem;
+
+          a {
+            text-decoration: none;
+            color: $text-color;
+            font-size: 1.4rem;
+            transition: all 0.3s;
+
+            &:hover {
+              color: $primary-color;
+            }
+          }
+        }
+      }
+    }
+
+    .account ul {
+      display: flex;
+
+      li {
+        padding-left: 1.7rem;
+        list-style-type: none;
+
+        a {
+          text-decoration: none;
+          color: $text-color;
+          font-size: 1.2rem;
+          transition: all 0.3s;
+
+          &:hover {
+            color: $primary-color;
+          }
+        }
+      }
+    }
+  }
+}
+
+.account ul .hamburger {
+  display: none;
+}
+
+.return-btn__div {
+  position: relative;
+  display: none;
+
+  .return-btn {
+    position: fixed;
+    bottom: 5%;
+    right: 3%;
+    background-color: $primary-color;
+    color: $secondary-color;
+    border: 1px solid $primary-color;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    font-size: 2rem;
+    z-index: 5;
+    cursor: pointer;
+  }
+}

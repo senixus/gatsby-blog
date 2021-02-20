@@ -1,0 +1,49 @@
+@import "../../../styles/variables";
+
+.contact-section {
+  .contacts {
+    margin: 2rem 1rem;
+
+    .contact-item {
+      width: 100%;
+
+      #form {
+        .form-group {
+          padding: 1rem 0;
+
+          .label-div {
+            padding-bottom: 1rem;
+
+            label {
+              font-size: 1.3rem;
+            }
+          }
+
+          input,
+          textarea {
+            padding: 10px 18px;
+            width: 50%;
+          }
+
+          #button {
+            padding: 0.8rem 3rem;
+            cursor: pointer;
+            background-color: $primary-color;
+            color: $secondary-color;
+            transition: all 0.3s;
+            outline: none;
+            border: 1px solid $primary-color;
+            border-radius: 5px;
+            font-size: 1.2rem;
+            width: 50%;
+
+            &:hover {
+              background-color: $secondary-color;
+              color: $primary-color;
+            }
+          }
+        }
+      }
+    }
+  }
+}

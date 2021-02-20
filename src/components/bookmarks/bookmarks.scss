@@ -1,0 +1,41 @@
+@import "../../../styles/variables";
+
+.bookmarks {
+  &-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__image {
+      img {
+        width: 250px;
+        height: auto;
+
+        &:hover {
+          opacity: 0.8;
+        }
+      }
+    }
+
+    &__info {
+      span {
+        padding: 1rem 1rem 1rem 0;
+        font-size: 0.9rem;
+        color: #b3aeae;
+      }
+    }
+
+    a {
+      text-decoration: none;
+      color: #000000;
+      transition: all 0.3s;
+      &:hover {
+        color: $primary-color;
+      }
+    }
+  }
+}
+
+.pd {
+  padding: 1rem;
+}

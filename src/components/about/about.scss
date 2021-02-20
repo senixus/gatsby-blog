@@ -1,0 +1,32 @@
+@import "../../../styles/variables";
+
+.about {
+  max-width: 100%;
+  margin: 3rem 5rem;
+  word-spacing: 2px;
+
+  .about-info {
+    border: 2px solid $primary-color;
+    padding: 2rem 3rem;
+
+    .author-image__about {
+      margin: 1.5rem 0;
+      text-align: center;
+      img {
+        border-radius: 50%;
+      }
+    }
+
+    .text-info {
+      h4 {
+        text-align: center;
+        font-size: 1.5rem;
+        padding: 1rem 0;
+      }
+
+      p {
+        text-align: justify;
+      }
+    }
+  }
+}
