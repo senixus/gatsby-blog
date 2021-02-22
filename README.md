@@ -4,7 +4,7 @@
 
 ## Enviroment variables
 
-create `.env.developement` file in the root folder. Copy and paste the below code in to `.env.development`
+create `.env.developement` file in the root folder. Copy and paste the below code in to the `.env.development`
 
     ```
      AIRTABLE_API_KEY = API_KEY
