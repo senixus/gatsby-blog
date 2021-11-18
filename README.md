@@ -11,7 +11,7 @@ create `.env.developement` file in the root folder. Copy and paste the below cod
      AIRTABLE_BASE_ID = BASE_ID
      AIRTABLE_TABLE_NAME = TABLE_NAME
      AIRTABLE_TABLE_VIEW = TABLE_VIEW   (optional)
-     RAINDROP_ACCESS_TOKEN = ACCESS_TOKEN (You can create test token for it)
+     RAINDROP_ACCESS_TOKEN = ACCESS_TOKEN (You can create test token)
      BOOKMARK_URL = URL
      FORMSPREE_FORM_ID = FORM_ID
     
