@@ -20,7 +20,7 @@ create `.env.developement` file in the root folder. Copy and paste the below cod
 
    [Formspree](https://formspree.io/) <br/>
    [Airtable](https://airtable.com/) <br/>
-   [Raindrop](https://raindrop.io/) if you use the raindrop you must download the extension [extensions](https://raindrop.io/download)
+   [Raindrop](https://raindrop.io/) if you use the raindrop you must download the extension [here](https://raindrop.io/download)
    
    
 ## Start project
